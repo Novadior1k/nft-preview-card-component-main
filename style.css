@@ -20,7 +20,7 @@ body, html {
     flex-direction: column;
     margin: 10% auto;
     width: 30%;
-    height: 90%;
+    height: 65%;
     border-radius: 15px;
     box-shadow: hsl(215, 32%, 27%);
 }
@@ -53,3 +53,50 @@ body, html {
     color: #beb6b6;
 }
 
+#price {
+    margin-top: 20px;
+    color: hsl(178, 100%, 50%);
+}
+
+#days-left {
+    color: #beb6b6;
+    float: right;
+}
+
+.nft-creator {
+    display: flex;
+    margin: 20px 40px 0px 40px;
+}
+
+.nft-creator img {
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    height:50px;
+}
+
+.nft-creator p {
+    margin-left: 10px;
+    color: #beb6b6;
+    margin: auto auto auto 10px;
+}
+
+.nft-creator p span {
+    color: #f5f5f5;
+}
+
+/* hover properties for the picture, creator name and nft name */
+
+
+.nft-image img:hover {
+    background-color: aqua;
+}
+
+.nft-creator span:hover {
+    color: cyan;
+    transition: 0.5s;
+}
+
+#Equilibrium:hover {
+    color: cyan;
+    transition: 0.5s ease-in-out;
+}
